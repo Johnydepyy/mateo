@@ -26,7 +26,7 @@ int main() {
     "/" -> dzielenie
     "%" -> reszta z dzielenia(modulo)
     */
-
+    //tak
 
 
     return 0;
