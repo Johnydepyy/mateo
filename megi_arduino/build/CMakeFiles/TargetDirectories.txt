@@ -1,0 +1,4 @@
+/home/jmaci/megi_arduino/build/CMakeFiles/app.dir
+/home/jmaci/megi_arduino/build/CMakeFiles/less1.dir
+/home/jmaci/megi_arduino/build/CMakeFiles/edit_cache.dir
+/home/jmaci/megi_arduino/build/CMakeFiles/rebuild_cache.dir

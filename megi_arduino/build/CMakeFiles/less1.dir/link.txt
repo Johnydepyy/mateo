@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/less1.dir/Lessonv1.cpp.o -o less1 
