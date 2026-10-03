@@ -10,7 +10,7 @@ int main() {
     /*cout -> funkcja wypisująca tekst w wierszu poleceń */
     /*endl -> funkcja przenosząca tekst do następnej linii */
     int a = 0; // <- deklaracja zmiennej
-    std::cin >> a;
+    //std::cin >> a;
     /* int -> nazwa zmiennej liczby  całkowitej*/
     /*cin -> funkcja popierająca dane z klawiatury*/
     int b = 0;
@@ -29,7 +29,7 @@ int main() {
     //tak
 
 
-    return 0;
+    //return 0; // <- zabijająca program 
 
     /*and i or są spójnikami logicznymi */
     /*Funkcja warunkowa:*/
@@ -59,6 +59,18 @@ int main() {
     else {
         b = 5;
     }
+
+    /*Pętla while wykorzystuje warunek logiczny i wykonuje kojelne pętle dopóki warunek jest prawdziwy*/
+    a = 1;
+    p = true;
+    while (a < 100) { // <-  sprawdza i idzie na dół
+        a += 1;
+        std::cout << a << " ";
+    }
+
+    do { // <- idzie na dół i sprawdza
+
+    } while (p);
 }
 
 /*Zadania do przeciiczenia, jeśli chcesz :) */
