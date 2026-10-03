@@ -30,6 +30,8 @@ int main() {
 
 
     return 0;
+
+    /*and i or są spójnikami logicznymi  */
 }
 
 /*Zadania do przeciiczenia, jeśli chcesz :) */
