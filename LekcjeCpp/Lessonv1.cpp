@@ -62,15 +62,56 @@ int main() {
 
     /*Pętla while wykorzystuje warunek logiczny i wykonuje kojelne pętle dopóki warunek jest prawdziwy*/
     a = 1;
-    p = true;
-    while (a < 100) { // <-  sprawdza i idzie na dół
+    while (a < 100)
+    { // <-  sprawdza i idzie na dół
         a += 1;
-        std::cout << a << " ";
+        std::cout << a;
+        std::cout << " ";
     }
 
     do { // <- idzie na dół i sprawdza
-
     } while (p);
+
+    std::cout << std::endl;
+    for (int i = 0;i < 10; i += 1) {
+        std::cout << i << " ";
+    }
+
+    while (a < 10) {
+        if (a % 2 == 0) { // a jest przyste
+            // rysuje biały kafelek 
+        }
+        else { // a jest nieparzyste
+            // rysuje czarny kafelek
+        }
+        a += 1;
+    }
+
+    a = 1; //miejsca na czarne kafelki
+    b = 2; // miejsca na białę kafelki 
+
+    while (a < 4) {
+        //rysujemy czarny kafelek
+        a += 2;
+        if (a == 3) {
+            while (b <= 4) {
+                //ryaujemy białe kafelki 
+                b += 2;
+            }
+        }
+    }
+
+
+    a = 1;
+    while (a <= 4) {
+        //rysujemy czarny kafelek
+        a += 2;
+    }
+    b = 2;
+    while (b <= 4) {
+        //rysujemy białe kafelki 
+        b += 2;
+    }
 }
 
 /*Zadania do przeciiczenia, jeśli chcesz :) */
