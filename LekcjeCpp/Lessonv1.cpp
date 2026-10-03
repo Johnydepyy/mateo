@@ -31,7 +31,34 @@ int main() {
 
     return 0;
 
-    /*and i or są spójnikami logicznymi  */
+    /*and i or są spójnikami logicznymi */
+    /*Funkcja warunkowa:*/
+    bool p;/* 0/1 -> prawda albo fałsz*/
+    p = 1; // -> p jest prawdziwe
+    p = true; // to samo 
+    p = 0; // p jest fałśzem 
+    p = false;// to samo 
+
+    if (p == true) {
+        a = 5;
+    }
+    else {
+        b = 5;
+    }
+    /* AND -> wykona się jedynie kiedy obydwa zdania będą prawdzie */
+    if (p == true and a > b) { // and  ==  &&
+        a = 5;
+    }
+    else {
+        b = 5;
+    }
+    /*Or -> nie wykona się jedynie kiedy zdanie będą fałszywe  */
+    if (p == true or a < b) { // or == ||
+        a = 5;
+    }
+    else {
+        b = 5;
+    }
 }
 
 /*Zadania do przeciiczenia, jeśli chcesz :) */
